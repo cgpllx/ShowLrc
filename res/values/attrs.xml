@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<resources>  
+    <declare-styleable name="LyricView">  
+         <attr name="textColor" format="color" />  
+         <attr name="highLightColor" format="color" />
+         <attr name="textSize" format="dimension" />
+         <attr name="hightLightTextSize" format="dimension" />    
+         <attr name="textInvernal" format="dimension" /> 
+    </declare-styleable>  
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:konka="http://schemas.android.com/apk/res/com.konka.showlrc"
+    android:id="@+id/activity_main_root_framelayout"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+     >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+        <com.konka.lrc.LyricView 
+            android:id="@+id/lrcview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            konka:textSize="18dip"
+            konka:hightLightTextSize="22dip"
+            konka:textInvernal="30dip"/>   
+    </LinearLayout>
+
+</FrameLayout>
